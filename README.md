@@ -13,6 +13,11 @@ This notebook was constructed using the Anaconda 3.5 Python distribution. If you
 
 ``conda install seaborn``
 
+or 
+
+``pip install seaborn``  
+
+
 
 ## About the author
 
