@@ -5,15 +5,7 @@
 This Jupyter notebook introduces you to some basic principles data exploration and visualization using the Python language. The lessons contained in the notebook, revolve around exploration of the characteristics of a number of automobiles. The ultimate goal is to build a model for predicting the price of a car from its characteristics. The goal is to understand the relationships in these data using visualization methods. 
 
 ## About this Jupyter Notebook
-The Jupyter notebook contains material to help you learn how to explore data visually. This notebook and the data set can be downloaded from GitHub:
-
-**https://github.com/StephenElston/ExploringDataWithPython**  
-
-This notebook was constructed using the Anaconda 3.5 Python distribution. If you are not running version Anaconda 3.5 or higher, we suggest you update your Anaconda distribution now.  You can download the Python 3 Anaconda distribution for your operating system from the [Continum Analytics web site](https://www.continuum.i
-
-``conda install seaborn``
-
-or 
+The Jupyter notebook contains material to help you
 
 ``pip install seaborn``  
 
@@ -21,7 +13,15 @@ or
 
 ## About the author
 
-These lessons have been prepared by **Steve Elston** who is co-founder and principle consultant Quantia Analytics, LLC. Steve is a long time data geek and analytical software pioneer, having lead R&D at the SPlus companies and co-founding FinAnalytica, among other positions. He assists clients with staff training and analytics problems in a number of areas. A summary of his activities include:  
+These lessons have been prepared by **Steve Elston**, co-founder and principle consultant at Quantia Analytics, LLC. Steve is a long time data geek and analytical software pioneer, having lead R&D at the SPlus companies and co-fou learn how to explore data visually. This notebook and the data set can be downloaded from GitHub:
+
+**https://github.com/StephenElston/ExploringDataWithPython**  
+
+This notebook was constructed using the Anaconda 3.5 Python distribution. If you are not running version Anaconda 3.5 or higher, we suggest you update your Anaconda distribution now.  You can download the Python 3 Anaconda distribution for your operating system from the [Continum Analytics web site](https://www.continuum.i
+
+``conda install seaborn``
+
+or nding FinAnalytica, among other positions. He assists clients with staff training and analytics problems in a number of areas. A summary of his activities include:  
 
 - Instructor, University of Washington and Harvard University data science programs
 - O'Reilly author and creator of four edX data science courses
@@ -32,7 +32,7 @@ These lessons have been prepared by **Steve Elston** who is co-founder and princ
 
 ## Why visualization?
 
-Visualization is an essential method in any data scientist’s toolbox. Visualization is a key first step in the exploration of most data sets. As a general rule, you should never start creating models untilo/downloads)
+Visualization is an essential method in any data scientist’s toolbox. Visualization is a key first step in the exploration of most data sets. As a general rule, you should never start creating models until you have an understanding of the relationships in your data.
 
 To run this notebook you need the Seaborn graphics packages. If you have not done so, you will need to install Seaborn as it is not in the Anaconda distribution as of now. From a command prompt on your computer type the following command. If no errors occur, you will have installed Seaborn.
 
@@ -49,11 +49,11 @@ The key concept of exploratory data analysis (EDA) or visual exploration of data
 - Explore complex data sets, using visualization to develop understanding of the inherent relationships.
 - Use different chart types to create multiple views of data to highlight different aspects of the inherent relationships.
 - Use plot aesthetics to project multiple dimensions. 
-- Apply conditioning or faceting methods to project multiple dimensions
+- Apply conditioning or faceting methods to project multiple dimensions.
 
 
 
-These lessons are divided into three parts. In each part you will learn how to use the visualization tools available in Python.
+These lessons are divided into three parts. In each part you will learn how to use Python visualization tools.
 
 - **Overview of plot types** is a review of creating basic plot types used to construct visualizations.
 - **Using Aesthetics** is an overview of how to project additional plot dimensions using plot aesthetics.
